@@ -22,12 +22,12 @@ The objective of this assignment is to demonstrate data curation skills by follo
 ## About the project
 The data collected from the Wikipedia represents demographics, especially the total population, numbers of birth and death, natural change, and fertility rate of South Korea from 1925 to 2022 (the data can be found [here](https://en.wikipedia.org/wiki/Demographics_of_South_Korea)).
 ### Data type and description
-- **Year** (int)
+- **Year** (year)
 - **Average population** (int): the arithmetic mean of the population on 1st January of two consecutive years
 - **Live births** (int)
 - **Deaths** (int)
 - **Natural change** (int): # of births - # of deaths
-- **Crude birth rate (per 1000)** (float): births per year 1000 inhabitants
+- **Crude birth rate (per 1000)** (float): births per year per 1000 inhabitants
 - **Crude death rate (per 1000)** (float): deaths per year per 1000 inhabitants
 - **Natural change (per 1000)** (float): the ratio of natural change per year per 1000 inhabitants
 - **Total fertility rate (TFR)** (float): the sum of the age-specific birth rates multiplied by five
